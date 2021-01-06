@@ -22,5 +22,17 @@ public class ThermTest
 		
 		System.out.println("Temp. of thermometer B is " + tempB);
 		
+		tempB = thermB.getFahrenheit(); //Should be 50F if set 10C
+		
+		System.out.println("Temp. of thermometer B in Fahrenheit is " + tempB);
+		
+		//Set Fahrenheit
+		
+		thermB.setFahrenheit(100); //37.77 in Celsius
+		
+		tempB = thermB.getCelsius();
+		
+		System.out.println("Temp. of Thermometer B is " + tempB);
+		
 	} // end main
 } // end class ThermTest
