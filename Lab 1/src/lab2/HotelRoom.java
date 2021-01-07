@@ -12,6 +12,8 @@ public class HotelRoom {
 	public HotelRoom() {
 		setRoomNumber(0);
 		setRoomType("");
+		setVacant(false);
+		setRate(0);
 	}
 	
 	public HotelRoom(int roomNumber, String roomType) {
