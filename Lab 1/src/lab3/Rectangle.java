@@ -52,6 +52,23 @@ public class Rectangle {
 		return 2*(length + width);
 	}
 	
+	public void printRectangle() {
+		String w = "*";
+		
+		for(int i = 0; i < width - 2; i++) {
+			w += "*";
+		}
+		System.out.println(w);
+		
+		for(int i = 0; i < length - 2; i++) {
+			System.out.print("*");
+			for(int x = 0; x < width - 3; x++) {
+				System.out.print(" ");
+			}
+			System.out.println("*");
+		}
+		System.out.println(w);//prints bottom
+	}
 	
 	
 	

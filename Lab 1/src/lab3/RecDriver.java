@@ -21,6 +21,8 @@ public class RecDriver {
 		System.out.println("The area is: " + rec.getArea());
 		
 		System.out.println("The perimeter is: " + rec.getPerimeter());
+		
+		rec.printRectangle();
 
 	}
 
