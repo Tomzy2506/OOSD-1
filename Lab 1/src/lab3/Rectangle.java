@@ -42,4 +42,18 @@ public class Rectangle {
 	public String toString() {
 		return "Rectangle [length=" + length + ", width=" + width + "]";
 	}
+	
+	//Misc Methods
+	public float getArea() {
+		return length * width;
+	}
+	
+	public float getPerimeter() {
+		return 2*(length + width);
+	}
+	
+	
+	
+	
+	
 }
