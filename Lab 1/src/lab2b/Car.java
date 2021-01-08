@@ -53,11 +53,16 @@ public class Car {
 	public boolean isSold() {
 		return sold;
 	}
-	public void setSold(boolean sold) {
-		this.sold = sold;
+	public void sellCar() {
+		if(sold) {
+			System.out.println("The car has already been sold!!");
+		}
+		else {
+			this.sold = true;
+			System.out.println("The car is now sold!!");
+		}
 	}
 	
-
 	//toString
 	@Override
 	public String toString() {
