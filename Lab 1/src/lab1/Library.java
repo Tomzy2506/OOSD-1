@@ -7,24 +7,11 @@ public class Library {
 	public static void main(String[] args) {
 		
 		Book[] books = new Book[3];
-		
-		for(int i = 0; i <= 2; i++) {
-			
-			System.out.println("Enter Book Title: ");
-			String title = in.nextLine();
-			
-			System.out.println("Enter Book Author: ");
-			String author = in.nextLine();
-			
-			System.out.println("Enter No. of Pages: ");
-			int noOfPages = in.nextInt();
-			
-			Book b = new Book(title, author, noOfPages);
-			
-			books[i] = b;
-			
-			
-		}
+		Book book1 = new Book("java 101 ", "Pearse ", 4);
+
+	    Book book2 = new Book(" C++ ", " Stormzy ", 400, 2, 9);
+
+	    Book book3 = new Book(" java python ", " J.cole ", 800, 2);
 		
 		for(Book b: books) {
 			if(b != null)System.out.println(b.toString());
