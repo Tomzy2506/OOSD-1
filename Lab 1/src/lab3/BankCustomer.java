@@ -55,7 +55,7 @@ public class BankCustomer {
 	public double balance(SavingsAccount[] savaccs) {
 		double balance = 0;
 		for(SavingsAccount sav: savaccs) {
-			if(sav != null)balance += getSavingsBalance();
+			if(sav != null)balance += sav.getSavingsBalance();
 		}
 		return balance;
 	}

@@ -15,7 +15,7 @@ public class Book {
 		
 	}
 	
-	public Book(String title, String author, int noOfPages, int edition, int chapters, char status){
+	public Book(String title, String author, int noOfPages, int edition, int chapters){
 		setTitle(title);
 		setAuthor(author);
 		setNoOfPages(noOfPages);
@@ -24,7 +24,7 @@ public class Book {
 		setStatus('A');
 	}
 	
-	public Book(String title, String author, int noOfPages, int edition, char status){
+	public Book(String title, String author, int noOfPages, int edition){
 		setTitle(title);
 		setAuthor(author);
 		setNoOfPages(noOfPages);
@@ -32,7 +32,7 @@ public class Book {
 		setStatus('A');
 	}
 	
-	public Book(String title, String author, int noOfPages,char status){
+	public Book(String title, String author, int noOfPages){
 		setTitle(title);
 		setAuthor(author);
 		setNoOfPages(noOfPages);
