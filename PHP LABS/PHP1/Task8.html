@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            :required {
+                border-color: red;
+            }
+            form {
+                width: 500px;
+                padding: 10px;
+                margin: 20px auto;
+                border: blue ridge;
+            }
+            input {
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                border: 1px solid black;
+                font-size: 20px;
+                width: 100px;
+                min-height: 30px;
+                display: block;
+                margin-bottom: 15px;
+                margin-top: 5px;
+            }
+            input[type=submit] {
+                margin: auto;
+                background: none;
+                padding: 10px;
+            }
+            label {
+                float: left;
+                width: 10em;
+                margin-right: 1em;
+                font-size: 20px;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <form action = "task8.php" method="post">
+            <h2>Please enter the details and find out the day of the week matching the input: </h2>
+            <label>Day of the Month</label><input type="number" name="datenum" id="datenum" min="1" max="31" required/><br>
+            <label>Month</label><input type="number" name="monthnum" id="monthnum" min="1" max="12" required/><br>
+            <label>Year</label><input type="number" name="yearnum" id="yearnum" required/><br>
+            <input type="submit" value="submit" name="submit"/>
+        </form>
+    </body>
+</html>
