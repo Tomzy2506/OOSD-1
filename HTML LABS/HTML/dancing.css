@@ -1,0 +1,45 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: black; font-size: large;
+}
+
+p,
+li {
+    font-size: 18px;
+}
+
+a{
+    text-decoration: black;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+float: center;
+color: black;
+text-align: center;
+padding: 127px 127px;
+text-decoration: none;
+font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: rgb(75, 209, 233);
+color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: white;
+color: black;
+}
