@@ -1,0 +1,42 @@
+.box {
+    border: solid red 10px;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+}
+.h1 {
+    background-color: aqua;
+    text-align: center;
+    font-weight: bold;
+}
+.tendiamonds {
+    position: absolute;
+    left: 48%;
+    top: 135px;
+    z-index: 1;
+}
+.jackdiamonds {
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    z-index: 2;
+}
+.queendiamonds {
+    position: absolute;
+    left: 52%;
+    top: 165px;
+    z-index: 3;
+}
+.kingdiamonds {
+    position: absolute;
+    left: 54%;
+    top: 180px;
+    z-index: 4;
+}
+.acediamonds {
+    position: absolute;
+    left: 56%;
+    top: 195px;
+    z-index: 5;
+}

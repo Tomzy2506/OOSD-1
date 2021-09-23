@@ -1,0 +1,16 @@
+.container{
+	border: solid black 5px;
+	width: 50%;
+	}
+#imgFirst {
+    width: auto;
+    text-align: right;
+    float: right;
+    margin: 5px;
+    height: 30%;
+}
+#imgSecond {
+    max-width: 30%;  
+    float: left;
+    margin: 5px;  
+}

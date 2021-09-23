@@ -1,0 +1,36 @@
+/*A simple linked CSS document */
+/*File name: E7 */
+
+*{
+	box-sizing: border-box;
+	}
+	
+.box1{
+	height: 100px;
+	width: 100px;
+	background-color: pink;
+	border: dashed 5px red;
+	position: relative;
+	top: 25px;
+	left: 30px;
+	}
+
+.box2{
+	height: 100px;
+	width: 100px;
+	background-color: orange;
+	border: solid 10px green;
+	position: relative;
+	top: 50px;
+	left: 25px;
+	}
+	
+.box3{
+	height: 100px;
+	width: 100px;
+	background-color: purple;
+	border: ridge 20px grey;
+	position: relative;
+	top: -25px;
+	right: 30px;
+	}

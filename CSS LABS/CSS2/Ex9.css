@@ -1,0 +1,40 @@
+.Box {
+    position: relative;
+    background-color: aqua;
+    width: 900px;
+    border: 15px solid blue;
+    padding: 100px;
+    padding-bottom: 550px;
+    padding-right: 250px;
+}
+.topright {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: red;    
+}
+.topleft {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: red;    
+}
+.bottomright {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: red;    
+}
+.bottomleft {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    color: red;    
+}
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;    
+}
